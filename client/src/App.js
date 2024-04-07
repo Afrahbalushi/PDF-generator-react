@@ -30,6 +30,7 @@ const App = () => {
     setContent(e.target.value);
   };
 
+
   const handleGeneratePdf = () => {
     fetch('/generate-pdf', {
       method: 'POST',
